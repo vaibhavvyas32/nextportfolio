@@ -13,19 +13,19 @@ export default function HeroSection() {
                 </div>
                 <div className="mt-4 px-32 max-sm:px-4">
                     <h1 className={`!text-[3rem] mt-2 max-sm:!text-[1.6rem] !whitespace-nowrap font-bold tracking-tight text-center ${bricolage_grotesque}`}>
-                        Hi, I&apos;m Fardeen Mansoori
+                        Hi, I&apos;m Vaibhav Vyas
                     </h1>
-                    <h1 className={`mt-2 max-sm:mt-5 max-sm:px-3 !text-base max-sm:!text-sm text-center !font-normal !tracking-normal inter !leading-6 ${inter}`}>20, i break things, learn fast, and make shit happen. deep into code and cs; anything that pushes the limits. history, curiosity, cricket, and great books shaped me. still chasing mastery.
+                    <h1 className={`mt-2 max-sm:mt-5 max-sm:px-3 !text-base max-sm:!text-sm text-center !font-normal !tracking-normal inter !leading-6 ${inter}`}>25, into tech since birth, I tinker hardware, websites and make things work regardless of technology.
                         <br />
-                        If you’re working on something real, let’s talk.
+                        Want to build something together? Lets Talk
                     </h1>
                 </div>
                 <div className="mt-8 flex gap-4">
-                    <Link href="https://cal.com/fardeentwt/15min" target='_blank'>
+                    {/* <Link href="https://cal.com/fardeentwt/15min" target='_blank'>
                         <Button className="rounded-lg">
                             Book a meet
                         </Button>
-                    </Link>
+                    </Link> */}
                     <Button className="rounded-lg">
                         <ScrollLink to="contact-section" activeClass="active" smooth={true} offset={-120} duration={1100}>Get in touch</ScrollLink>
                     </Button>

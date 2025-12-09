@@ -6,9 +6,9 @@ export default function GitGraph() {
     return (
         <div className="w-full flex flex-col items-center mt-8 mb-4 gap-4 max-sm:hidden">
             <Title title="GitHub Contributions" />
-            <Link href={'https://github.com/Fardeen26'} target="_blank">
+            <Link href={'https://github.com/vaibhavvyas32'} target="_blank">
                 <GitHubCalendar
-                    username="Fardeen26"
+                    username="vaibhavvyas32"
                     blockSize={10}
                     blockMargin={3}
                     theme={{
