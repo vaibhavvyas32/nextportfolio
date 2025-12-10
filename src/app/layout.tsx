@@ -11,14 +11,14 @@ import dynamic from "next/dynamic";
 const ConditionalFooter = dynamic(() => import("./ConditionalFooter"), { ssr: false });
 
 export const metadata: Metadata = {
-  title: "vaibhav",
-  description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
-  keywords: "Fardeen Mansoori, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
-  authors: [{ name: "Fardeen Mansoori" }],
+  title: "Vaibhav Vyas",
+  description: "Vaibhav Vyas is a Software Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
+  keywords: "Vaibhav Vyas, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Django, software engineer, C++, AWS",
+  authors: [{ name: "Vaibhav Vyas" }],
   openGraph: {
-    title: "vaibwfejwfjwefjwejfhav",
+    title: "Vaibhav",
     description: "",
-    url: "https://fardeen.tech",
+    url: "/",
     siteName: "vaibhav",
     images: [
       {
